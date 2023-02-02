@@ -1,0 +1,194 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+      'upsidebar header header header'
+      'downsidebar content content content'
+      'downsidebar footer footer footer';
+    padding: 20px;
+}
+
+.header{
+    grid-area: header;
+    padding-top: 35px;
+    padding-left: 40px;
+    height: auto;
+}
+
+.upsidebar{
+    grid-area: upsidebar;   
+    padding-top: 35px;
+    height: auto;
+    background-color: rgba(2, 2, 39, 0.89);
+    border-top-left-radius: 10pt;
+    border-top-right-radius: 10pt;
+    text-align: center;
+}
+
+.downsidebar{
+    grid-area: downsidebar; 
+    padding: 20px; 
+    background-color: rgba(2, 2, 39, 0.89);
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+    height: auto;
+    font-size: 13px;
+}
+
+.content{
+    grid-area: content;
+    padding-left: 40px;
+    padding-right: 25px;
+    padding-top: 25px;
+    height: auto;
+}
+
+.footer{
+    grid-area: footer;
+    padding: 25px; 
+    padding-bottom: 0px;
+    height: auto;
+    font-size: 10px;
+}
+
+.a{
+    color: white;
+    text-align: center;
+}
+
+.nome{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: rgb(80, 80, 80);  
+}
+
+.sobrenome{
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-weight: normal;
+    color: rgb(0, 0, 0);  
+}
+
+.descricao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    color: rgb(80, 80, 80);
+}
+
+.hr1{
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px rgba(2, 2, 39, 0.89);
+}
+
+.hr2{
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 4px 1px rgba(249, 249, 250, 0.89);
+}
+
+.foto{
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+}
+      
+.foto img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.content_title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+    color: rgba(2, 2, 39, 0.89);
+}
+
+.sidebar_title{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.curso{
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.profile{
+    text-align: justify;
+    line-height: 30px;
+}
+
+.list{
+    text-align: left;
+    color: white;
+    line-height: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.contat{
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contat2{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.contat3{
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer{
+    color: rgb(37, 37, 116);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.text_letter{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 24px;
+    text-indent: 2em;
+}
+
+.rubrica{
+    width: 210px;
+    height: 50px;
+}
+
+.assinatura{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.downsidebar2{
+    grid-area: downsidebar; 
+    padding: 20px; 
+    background-color: rgba(2, 2, 39, 0.89);
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+    height: auto;
+    font-size: 11px;
+}
